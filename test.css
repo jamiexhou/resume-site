@@ -1,0 +1,99 @@
+body {
+	background-color: #edf1f7;
+	margin-left: 5%;
+	width: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-family: cambria;
+  color: #38414f;
+  font-size: 4em;
+}
+
+nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.3%;
+  font-size: 1.175em;
+  /*sizing the navbar*/
+  width: 80%;
+  margin-left: 10%;
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid white;
+  width: 20%;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #d9d9d9;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #99ccff;
+}
+
+.active {
+  background-color: #99ccff;
+}
+
+#navBar {
+  text-align: center;
+}
+
+#content {
+
+}
+
+article {
+	/*size and placement of box*/
+  text-align: center;
+  display: inline-block;
+  right: 0px;
+  margin-left: 12%;
+  margin-right: auto;
+  /*borders*/
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1.15px;
+  background-color: #e6ffe6;
+  padding: 1%;
+  max-width: 60%;
+  /*using px instead of % because % makes it look weird*/
+  border-radius: 25px;
+}
+
+aside {
+	/*size and placement of box*/
+  display: inline-block;
+  float: right;
+  text-align: left;
+  position: relative;
+  margin-left: 0;
+  margin-right: 8%;
+  max-width: 15%;
+  /*borders*/
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1.15px;
+  background-color: #e6ffe6;
+  padding: 1%;
+  /*using px instead of % because % makes it look weird*/
+  border-radius: 25px;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+}
