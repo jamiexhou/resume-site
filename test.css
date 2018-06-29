@@ -11,6 +11,13 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+	text-align: center;
+	font-family: cambria;
+	color: #38414f;
+	font-size: 1.5em;
+}
+
 nav {
   display: inline-block;
   list-style-type: none;
@@ -26,6 +33,7 @@ nav li {
   float: left;
   border-right: 1px solid white;
   width: 20%;
+  text-align: center;
 }
 
 li:last-child {
@@ -48,6 +56,7 @@ a:hover {
   background-color: #99ccff;
 }
 
+/*hiding drop down menu*/ 
 .dropdown-content {
 	display: none;
     position: absolute; /*see if its possible to change to relative later*/
@@ -56,12 +65,21 @@ a:hover {
     z-index: 1;
 }
 
+/*unhiding drop down menu when there cursor is hovering over the menu bar*/
 .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-#navBar {
+
+#navBar, .css-options {
   text-align: center;
+}
+
+/*specific styling to the css selection bar*/
+.css-options{
+	display: block;
+	float: center;
+	margin-left: 15%;
 }
 
 #content {
