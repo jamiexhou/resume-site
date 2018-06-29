@@ -2,6 +2,7 @@ body {
 	background-color: #edf1f7;
 	margin-left: 5%;
 	width: 90%;
+	font-family: arial;
 }
 
 h1 {
@@ -71,15 +72,21 @@ a:hover {
 }
 
 
-#navBar, .css-options {
+#navBar, .css-options{
   text-align: center;
 }
 
 /*specific styling to the css selection bar*/
-.css-options{
+.css-options {
 	display: block;
 	float: center;
 	margin-left: 15%;
+	/*font-size: 1em;*/
+}
+
+/*shrink size of 2ndary navigation bar*/
+.css-options {
+	font-size: 0.75em;
 }
 
 #content {
