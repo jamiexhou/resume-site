@@ -1,0 +1,150 @@
+body {
+	background-color: #593021;
+	font-family: Avant-Garde;
+	width: 100%;
+}
+
+h1 {
+	font-family: impact;
+	font-size: 5em;
+	color: #fcf3ef;
+	text-align: center;
+}
+
+h2 {
+	font-family: impact;
+	font-size: 2em;
+	color: #fcf3ef;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/* navigation bar*/
+nav {
+	display: inline-block;
+	list-style-type: none;
+	border-style: solid;
+	border-width: 0.7%;
+	
+	/* stretching the navigation bar to full size across a screen*/
+	margin-left: -1%;
+	margin-right: 0%;
+	padding: 0%;
+	font-size: 1.5em;
+	width: 101%;
+	
+	/* colouring */
+	background-color: #c1b0a8;
+	border-color: #d3961b;
+}
+
+/* individual navigation bar items*/
+nav li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	color: #c1b0a8;
+	background-color: #84533c;
+	padding: 2%;
+	font-family: helvetica; 
+}
+
+/* changing nav bar links to change colour when being hovered*/
+nav li a:hover {
+  background-color: #b25c33;
+}
+
+/* setup change in colour of active menubars*/
+.active {
+  background-color: #b25c33;
+}
+
+/* making the css selection bar not full width*/
+.css-options nav {
+	display: block;
+	float: center;
+	width: 75%;
+	margin-left: 10%;
+	font-size: 1em;
+}
+
+.css-options nav li{
+	width: 33.3%;
+	border-width: 2%;
+}
+
+.css-options nav li:first-child {
+}
+
+/* setting up initial dropdown menu*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 25%;
+	z-index: 1;
+}
+
+/* unhiding dropdown menu options when cursor is hovering */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* formatting various textboxes */
+article {
+	
+	/* positioning*/
+	float: left;
+	width: 75%;
+	
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 5%;
+	
+	padding-top: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+	
+	/* colour*/
+	color: #f9e5ae;
+	background-color: #77432f;
+	box-shadow: 5px 10px 8px #231f1d
+}
+
+aside {
+	/* positioning*/
+	float: right;
+	width: 18%;
+	margin-top: 3%;
+	margin-right: 2%;
+	margin-left: -2%;
+	
+	/* colour */
+	color: #f9e5ae;
+	background-color: #77432f;
+	box-shadow: 5px 10px 8px #231f1d;
+	
+	/* rotate */
+	transform: rotate(3deg);
+}
+
+footer {
+	/* formatting */
+	height: 5%;
+	text-align: center;
+	margin-top: 5%;
+	
+	/* colour */
+	background-color: #3d251a;
+	color: #c1b0a8;
+	
+	/* keeping at the bottom of the page */
+	bottom: 0;
+	position: fixed; 
+	width: 100%;
+}
