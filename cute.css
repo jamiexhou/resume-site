@@ -1,0 +1,80 @@
+body {
+	/* colours */
+	background-color: #fcdac4;
+	color: #3a0b5e;
+}
+
+/* sort of a front page*/
+h1 {
+	text-align: center;
+	width: 100%;
+	font-size: 7em;
+	
+	margin-top: 0%;
+	padding-bottom: 20%;
+	padding-top: 10%;
+	
+	/* setting a background image */
+	background-image: url("landscape.png");
+	background-size: 100% 100%;
+	
+	font-family: arial;
+}
+
+
+/* styling navigation bars */
+nav {
+	display: inline-block;
+	list-style-type: none; 
+	font-size: 1.5em;
+	width: 100%;
+}
+
+nav li {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+nav li a {
+	text-decoration: none; 
+	display: block;
+	background-color: #f9ac48;
+	
+	/* formatting */
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/* hiding nested links*/
+.dropdown-content {
+	display: none; 
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#navBar {
+	/* making the navigation bar stay at the bottom of the page*/
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	
+	/* prioritizing */
+	margin-left: 10%;
+	z-index: 1;
+}
+
+.css-options {
+	margin-left: 20%;
+}
+
+/* formatting content */
+article, aside {
+	background-color: #ffffff;
+	opacity: 0.5;
+	color: #933c01;
+	padding: 2%;
+	margin-top: 1%;
+}
