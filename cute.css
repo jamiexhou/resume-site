@@ -1,7 +1,11 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Gloria+Hallelujah|Permanent+Marker');
+
 body {
 	/* colours */
 	background-color: #fcdac4;
 	color: #3a0b5e;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 /* sort of a front page*/
@@ -13,21 +17,28 @@ h1 {
 	margin-top: 0%;
 	padding-bottom: 20%;
 	padding-top: 10%;
+	margin-bottom: 0%;
 	
 	/* setting a background image */
 	background-image: url("landscape.png");
 	background-size: 100% 100%;
 	
-	font-family: arial;
+	font-family: 'Gaegu', cursive;
 }
 
+h2 {
+	font-size: 1.5em;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
 
 /* styling navigation bars */
 nav {
-	display: inline-block;
-	list-style-type: none; 
+	display: inline;
+	list-style-type: none;
 	font-size: 1.5em;
 	width: 100%;
+	font-family: 'Permanent Marker', cursive;
 }
 
 nav li {
@@ -51,8 +62,13 @@ nav li a {
 	display: none; 
 }
 
+/* unhiding nested links */
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+.active, nav li a:hover {
+	background-color: #e8901e;
 }
 
 #navBar {
@@ -76,5 +92,14 @@ article, aside {
 	opacity: 0.5;
 	color: #933c01;
 	padding: 2%;
-	margin-top: 1%;
+	margin-top: 3%;
+	border-style: solid;
+	border-width: 100%;
+	border-radius: 5%;
+	border-color: #e8901e;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5%;
 }
