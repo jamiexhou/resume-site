@@ -99,7 +99,17 @@ article, aside {
 	border-color: #e8901e;
 }
 
+/* footer link*/
 footer {
 	text-align: center;
 	margin-bottom: 5%;
+}
+
+footer a {
+	opacity: 0.5;
+}
+
+/* changes opacity when hovering*/
+footer a:hover {
+	opacity: 1;
 }

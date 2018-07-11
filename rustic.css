@@ -122,7 +122,7 @@ aside {
 	width: 18%;
 	margin-top: 3%;
 	margin-right: 2%;
-	margin-left: -2%;
+	padding-left: 0%;
 	
 	/* colour */
 	color: #f9e5ae;
@@ -131,6 +131,11 @@ aside {
 	
 	/* rotate */
 	transform: rotate(3deg);
+}
+
+/* formatting text in the aside*/
+aside p {
+	padding-left: 5%
 }
 
 footer {
@@ -147,4 +152,17 @@ footer {
 	bottom: 0;
 	position: fixed; 
 	width: 100%;
+}
+
+/* formatting formating links*/
+footer a {
+	display: inline-block;
+	color: #f9e5ae;
+	opacity: 0.5; 
+	background-color: #c1b0a8;
+}
+
+footer a:hover {
+	opacity: 1;
+	background-color: #d3961b;
 }

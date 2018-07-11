@@ -106,9 +106,10 @@ article {
   border-width: 1.15px;
   background-color: #e6ffe6;
   padding: 1%;
-  max-width: 60%;
+  width: 60%;
   /*using px instead of % because % makes it look weird*/
   border-radius: 25px;
+  
 }
 
 aside {
@@ -119,7 +120,7 @@ aside {
   position: relative;
   margin-left: 0;
   margin-right: 8%;
-  max-width: 15%;
+  width: 15%;
   /*borders*/
   border-style: solid;
   border-radius: 2px;
@@ -133,4 +134,10 @@ aside {
 footer {
   font-size: 0.7em;
   text-align: center;
+}
+
+/* formatting footer link */
+footer a {
+	width: 80%;
+	margin-left: 10%;
 }
