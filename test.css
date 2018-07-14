@@ -57,13 +57,13 @@ a:hover {
   background-color: #99ccff;
 }
 
-/*hiding drop down menu*/ 
+/*hiding drop down menu*/
 .dropdown-content {
 	display: none;
-    position: absolute; /*see if its possible to change to relative later*/
-    min-width: 20%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  position: absolute; /*see if its possible to change to relative later*/
+  min-width: 20%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 /*unhiding drop down menu when there cursor is hovering over the menu bar*/

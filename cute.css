@@ -13,16 +13,16 @@ h1 {
 	text-align: center;
 	width: 100%;
 	font-size: 7em;
-	
+
 	margin-top: 0%;
 	padding-bottom: 20%;
 	padding-top: 10%;
 	margin-bottom: 0%;
-	
+
 	/* setting a background image */
 	background-image: url("landscape.png");
 	background-size: 100% 100%;
-	
+
 	font-family: 'Gaegu', cursive;
 }
 
@@ -48,10 +48,10 @@ nav li {
 }
 
 nav li a {
-	text-decoration: none; 
+	text-decoration: none;
 	display: block;
 	background-color: #f9ac48;
-	
+
 	/* formatting */
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -59,12 +59,15 @@ nav li a {
 
 /* hiding nested links*/
 .dropdown-content {
-	display: none; 
+	display: none;
+	position: absolute;
 }
 
 /* unhiding nested links */
 .dropdown:hover .dropdown-content {
 	display: block;
+	min-width: 20%;
+	bottom: 100%; /*Adds space under the dropdown content*/
 }
 
 .active, nav li a:hover {
@@ -76,7 +79,7 @@ nav li a {
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	
+
 	/* prioritizing */
 	margin-left: 10%;
 	z-index: 1;
