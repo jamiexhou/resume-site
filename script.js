@@ -1,10 +1,12 @@
-var maxOptions = 2;
+var maxOptions = 3;
 var styles = ["test.css", "rustic.css", "cute.css"];
 
 // https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page
-// do we change css for all the sheets or like... just th eone page???
+// do we change css for all the sheets or like... just the one page???
 function swapScript(selection) {
-	for (i = 0; i <= maxOption; i++) {
+	alert("hi");
+	/*
+	for (i = 0; i < maxOption; i++) {
 		if (i == selection) {
 			var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
 
@@ -15,5 +17,5 @@ function swapScript(selection) {
 
 			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 		}
-	}
+	}*/
 }
